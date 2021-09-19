@@ -52,3 +52,33 @@
         color: #fff;
         background: #000;
     }
+
+/*
+    SLIDER
+*/
+.slider-1, .slider-2, .slider-3, .slider-4{
+	height: 100vh;
+	text-align: center;
+}
+
+.slider-1{
+	background: #700961;
+}
+.slider-2{
+	background: #b80d57;
+}
+
+/*
+    PUNTOS
+*/
+    
+
+
+/*
+    FOOTER
+*/
+    footer {
+        background: #F5C9D9;
+        padding-bottom: 1px;
+        padding-top: 10px;
+    }
