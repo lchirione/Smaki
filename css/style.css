@@ -58,7 +58,6 @@
 */
 .slider-1, .slider-2, .slider-3, .slider-4{
 	height: 100vh;
-	text-align: center;
 }
 
 .slider-1{
@@ -82,3 +81,7 @@
         padding-bottom: 1px;
         padding-top: 10px;
     }
+
+.test {
+    height: 50vh;
+}

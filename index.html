@@ -18,7 +18,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">        
 
         <!-- STYLE CSS-->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
 
         <!-- ICONO -->
         <link rel="icon" type=”image/x-icon” href="image/Icono_m.png">
@@ -54,10 +54,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto d.flex align-items-center">
                         <li class="nav-item">
-                        <a class="nav-link" href="#sec-1">CATALOGO</a>
+                        <a class="nav-link" href="#sec-2">CATALOGO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#sec-2">PUNTOS</a>
+                            <a class="nav-link" href="#sec-1">PUNTOS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">INFO</a>
@@ -97,17 +97,27 @@
         </div>
         <!-- FIN SECCIÓN -->
 
-        <!-- SECCIÓN 2 -->
-        <div class="container-fluid">
-            <div class="row slider-2" id="sec-2" >
-            <div class="row">
-                
-            </div>
-            </div>
+        <!-- SECCIÓN 2 PRODUCTOS -->
+        <div class="container" id="sec-2">
+           <h1>Catalogo</h1>
+           <hr>
+           <div class="row" id="items"></div>
         </div>
+        <template id="template-card">
+            <div class="col-12 mb-2 col-md-4">
+              <div class="card">
+                  <img src="" alt="" class="card-img-top img-fluid test">
+                <div class="card-body">
+                  <h5>Titulo</h5>
+                  <p>precio</p>
+                  <button class="btn btn-dark">Comprar</button>
+                </div>
+              </div>
+            </div>
+        </template>
         <!-- FIN SECCIÓN -->
 
-        <!-- PUNTOS -->
+        <!-- PUNTOS DE COMPRA -->
         
         <!-- FIN DE PUNTOS -->
 
@@ -122,6 +132,9 @@
         <!-- FIN FOOTER-->
 
         <!-- SCRIPT-->
+        <!-- Main JS-->
+        <script src="js/main.js"></script>
+
         <!-- JQuery -->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
