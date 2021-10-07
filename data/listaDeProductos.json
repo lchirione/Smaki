@@ -2,55 +2,55 @@
     {
       "precio": 330,
       "id": 1,
-      "title": "Champignon y queso",
+      "title": "Milanesa de champignon y queso por 6 unidades - 540 gr ",
       "image": "../image/productos/champignon.JPG"
     },
     {
       "precio": 330,
       "id": 2,
-      "title": "Calabaza y queso",
+      "title": "Milanesa de calabaza y queso por 6 unidades - 540 gr",
       "image": "../image/productos/calabaza.JPG"
     },
     {
       "precio": 330,
       "id": 3,
-      "title": "Capresse",
+      "title": "Milanesa de capresse por 6 unidades - 540 gr",
       "image": "../image/productos/capresse.JPG"
     },
     {
       "precio": 330 ,
       "id": 4,
-      "title": "Aceituna y queso",
+      "title": "Milanesa de aceituna y queso por 6 unidades - 540 gr",
       "image": "../image/productos/aceituna.JPG"
     },
     {
       "precio": 400,
       "id": 5,
-      "title": "Espinaca y queso",
+      "title": "Milanesa de espinaca y queso por 6 unidades - 540 gr",
       "image": "../image/productos/espinaca.JPG"
     },
     {
       "precio": 400,
       "id": 6,
-      "title": "Jamon y queso",
+      "title": "Milanesa de jamon y queso por 6 unidades - 540 gr",
       "image": "../image/productos/jamon.JPG"
     },
     {
       "precio": 450,
       "id": 7,
-      "title": "Humita",
+      "title": "Milanesa de humita por 6 unidades - 540 gr",
       "image": "../image/productos/humita.JPG"
     },
     {
       "precio": 400,
       "id": 8,
-      "title": "Roquefort",
+      "title": "Milanesa de roquefort por 6 unidades - 540 gr",
       "image": "../image/productos/roquefort.JPG"
     },
     {
       "precio": 400,
       "id": 9,
-      "title": "Cebolla y queso",
+      "title": "Milanesa de cebolla y queso por 6 unidades - 540 gr",
       "image": "../image/productos/cebolla.JPG"
     }
   ]

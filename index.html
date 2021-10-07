@@ -84,9 +84,10 @@
                 <a href="https://api.whatsapp.com/send?phone=5493516182061" class="btn1 btn-wsp" target="_blank"><i class="fab fa-whatsapp"></i></a>
             </div>
             <div class="col-6 d-flex justify-content-end">
-                <a href="https://api.whatsapp.com/send?phone=5493516182061" class="btn1 btn-buy" target="_blank"><i class="fas fa-shopping-cart"></i></a>
+               <button class="btn1 btn-buy" data-toggle='modal' data-target="#modal1" target="_blank"><i class="fas fa-shopping-cart"></i></button>
             </div>
         </div>
+
         <!-- SECCIÓN 1-->
         <div class="container-fluid">
             <div class="row slider-1" id="sec-1" >
@@ -98,10 +99,10 @@
         <!-- FIN SECCIÓN -->
 
         <!-- SECCIÓN 2 PRODUCTOS -->
-        <div class="container" id="sec-2">
+        <div class="container " id="sec-2">
            <h1>Catalogo</h1>
            <hr>
-           <div class="row" id="items"></div>
+           <div class="row" id="cards"></div>
         </div>
         <template id="template-card">
             <div class="col-12 mb-2 col-md-4">
@@ -110,12 +111,98 @@
                 <div class="card-body">
                   <h5>Titulo</h5>
                   <p>precio</p>
-                  <button class="btn btn-dark">Comprar</button>
+                  <button class="btn btn-dark">Agregar</button>
                 </div>
               </div>
             </div>
         </template>
         <!-- FIN SECCIÓN -->
+
+        <!-- CARRITO DE COMPRA-->
+        <div class="modal fade" tabindex="-1" id="modal1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        encabezado
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <h4>Carrito de compras</h4>
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th scope="col">#</th>
+                                  <th scope="col">Item</th>
+                                  <th scope="col">Cantidad</th>
+                                  <th scope="col">Acción</th>
+                                  <th scope="col">Total</th>
+                                </tr>
+                              </thead>
+                              <tbody id="items"></tbody>
+                              <tfoot>
+                                <tr id="footer">
+                                  <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+                                </tr>
+                              </tfoot>
+                            </table>
+                            <h4>Cards</h4>
+                            <div class="row" id="cards"></div>
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">&times;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <template id="template-footer">
+            <th scope="row" colspan="2">Total productos</th>
+            <td>10</td>
+            <td>
+                <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+                    vaciar todo
+                </button>
+            </td>
+            <td class="font-weight-bold">$ <span>5000</span></td>
+        </template>
+        
+        <template id="template-carrito">
+          <tr>
+            <th scope="row">id</th>
+            <td>Café</td>
+            <td>1</td>
+            <td>
+                <button class="btn btn-info btn-sm">
+                    +
+                </button>
+                <button class="btn btn-danger btn-sm">
+                    -
+                </button>
+            </td>
+            <td>$ <span>500</span></td>
+          </tr>
+        </template>
+    
+        <template id="template-card">
+          <div class="col-12 mb-2">
+            <div class="card">
+              <div class="card-body">
+                <h5>Titulo</h5>
+                <p>precio</p>
+                <button class="btn btn-dark">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </template>
+
+        <!-- FIN CARRITO DE COMPRA-->
+
+        <!-- METODOS DE PAGO -->
+        <div>
+            <h2>Metodos de pago</h2>
+        </div>
+        <!-- FIN DE METODOS DE PAGO -->
 
         <!-- PUNTOS DE COMPRA -->
         
