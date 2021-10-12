@@ -54,23 +54,42 @@
     }
 
 /*
-    SLIDER
+    SECCIONES
 */
-.slider-1, .slider-2, .slider-3, .slider-4{
-	height: 100vh;
-}
+    /*Sección uno*/
+    .sliderr-1 {
+        background: orchid;
+        height: 30vh;
+    }
 
-.slider-1{
-	background: #700961;
-}
-.slider-2{
-	background: #b80d57;
-}
+    /*Sección dos*/
+    .slider-2{
+        height: 100vh;
+        background: #b80d57;
+    }
 
+/*
+    METODOS DE PAGO
+*/
+    .mpagos {
+        background: #FFF;
+        margin: 40px;
+    }
+    .pagos{
+        color: #A5F5FD;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    }
 /*
     PUNTOS
 */
-    
+    .puntosDeCompras {
+        height: 30vh;
+        background: #F5C9D9;
+    }
+    .text2 {
+        text-align: center;
+    }
 
 
 /*
