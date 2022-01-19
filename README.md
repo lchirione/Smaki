@@ -1,5 +1,5 @@
 # SMAKI
-## Proyecto final con Coder House con JavaScript
+## Proyecto final con Coder House - JavaScript
 Proyecto Ecommerce realizado durante la cursada
 
 ## Link del proyecto finalizado
