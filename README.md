@@ -3,7 +3,7 @@
 Proyecto Ecommerce realizado durante la cursada
 
 ## Link del proyecto finalizado
-Url:
+Url:https://lchirione-smaki.netlify.app/
 
 ## Caracteristica del Proyecto
 Es un Ecommerce que simula una tienda que se dedica a la venta de milanesas de soja
